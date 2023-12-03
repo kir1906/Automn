@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalist Prediction</title>
+    <style>
+        body {
+            background: url('https://source.unsplash.com/1920x1080/?cricket') center/cover no-repeat; /* Sample background image */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            max-width: 500px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Finalist Prediction</h1>
+    <form action="/finalist" method="post">
+        <label for="team_matches">Team Matches:</label>
+        <input type="number" name="team_matches" step="any" required>
+
+        <label for="team1_win">Team 1 Win:</label>
+        <input type="number" name="team1_win" step="any" required>
+
+        <label for="team2_win">Team 2 Win:</label>
+        <input type="number" name="team2_win" step="any" required>
+
+        <label for="team1_venue_matches">Team 1 Venue Matches:</label>
+        <input type="number" name="team1_venue_matches" step="any" required>
+
+        <label for="team1_venue_win">Team 1 Venue Win:</label>
+        <input type="number" name="team1_venue_win" step="any" required>
+
+        <label for="team2_venue_matches">Team 2 Venue Matches:</label>
+        <input type="number" name="team2_venue_matches" step="any" required>
+
+        <label for="team2_venue_win">Team 2 Venue Win:</label>
+        <input type="number" name="team2_venue_win" step="any" required>
+
+        <label for="team1_curr_match">Team 1 Current Match:</label>
+        <input type="number" name="team1_curr_match" step="any" required>
+
+        <label for="team1_curr_win">Team 1 Current Win:</label>
+        <input type="number" name="team1_curr_win" step="any" required>
+
+        <label for="team1_curr_perform">Team 1 Current Perform:</label>
+        <input type="number" name="team1_curr_perform" step="any" required>
+
+        <label for="team2_curr_match">Team 2 Current Match:</label>
+        <input type="number" name="team2_curr_match" step="any" required>
+
+        <label for="team2_curr_win">Team 2 Current Win:</label>
+        <input type="number" name="team2_curr_win" step="any" required>
+
+        <label for="team2_curr_perform">Team 2 Current Perform:</label>
+        <input type="number" name="team2_curr_perform" step="any" required>
+
+        <label for="team1_pre">Team 1 Prefix:</label>
+        <input type="text" name="team1_pre" required>
+
+        <label for="team2_pre">Team 2 Prefix:</label>
+        <input type="text" name="team2_pre" required>
+
+        <label for="venue_pre">Venue Prefix:</label>
+        <input type="text" name="venue_pre" required>
+
+        <label for="team1_win_to_lose">Team 1 Win to Lose Ratio:</label>
+        <input type="number" name="team1_win_to_lose" step="any" required>
+
+        <label for="team2_win_to_lose">Team 2 Win to Lose Ratio:</label>
+        <input type="number" name="team2_win_to_lose" step="any" required>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

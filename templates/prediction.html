@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            background: url('https://source.unsplash.com/1920x1080/?cricket') center/cover no-repeat; /* Sample background image */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .result p {
+            color: #555;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .result strong {
+            color: #3498db;
+        }
+
+        .back-link {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #3498db;
+            text-decoration: none;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+
+        <div class="result">
+            <p>The predicted result is: <strong>{{ prediction }}</strong></p>
+        </div>
+
+        <a class="back-link" href="/">Back to Home</a>
+    </div>
+</body>
+
+</html>
