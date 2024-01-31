@@ -1,0 +1,28 @@
+{
+    "category":[
+        {
+            "categoryName" : "Soups & Starters"
+        }, 
+        {
+            "categoryName" : "urries & Staples"
+        }, 
+        {
+            "categoryName" : "Pizzas & Pastas"
+        },
+        {
+            "categoryName" : "Chinese & Fast Food"
+        }, 
+        {
+            "categoryName" : "Bread & Roti"
+        }, 
+        {
+            "categoryName" : "South Indian"
+        }, 
+        {
+            "categoryName" : "Beverage"
+        }, 
+        {
+            "categoryName" : "Dessert & Delight"
+        }
+    ]
+}

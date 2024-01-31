@@ -1,0 +1,210 @@
+.item-list-cat{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.adm-cat{
+    height: auto;
+    background-color: #EBF2D5;
+    font-family: 'David Libre';
+    color: #942D2D;
+}
+.ti-cat{
+    font-weight: 600;
+    font-size: 30px;
+}
+.addi-cat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #EBF2D5;
+}
+.mrow-cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.overlay-cat{
+    width: 100vw;
+    height: 100vh;
+    top : 0;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(42, 42, 42, 0.573);
+}
+.w-cat{
+    margin: 3% auto; /* Adjust top and bottom margins */
+    width: 87%; /* Adjust the width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust alignment */
+    flex-direction: row;
+}
+.content-ct{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    text-align: center;
+    line-height: 1.4;
+    background: #EBF2D5;
+    width: 40%;
+    height: 50%;
+    padding: 3rem 3rem 2rem 2rem;
+    border: 1px solid #942D2D;
+}
+
+.admin-category-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.bu-fo-cat{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.in-ca{
+    width: 55%;
+    height: 80%;
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1px solid #942D2D;
+    font-family: 'Darker Grotesque';
+    background: #FFF;
+}
+.row-cat{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'David Libre';
+    font-size: 150%;
+    font-weight: 800;
+}
+.but-list-cat{
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 40px;
+    margin: 0px;
+    flex-shrink: 0;
+    border: 1px solid #942D2D;
+    color: #942D2D;
+    background-color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    font-size: 125%;
+}
+
+.but2-list-cat{
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 115%;
+    width: 20%;
+    margin: 0px;
+    flex-shrink: 0;
+    border: 1px solid #942D2D;
+    color: #942D2D;
+    background-color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    font-size: 125%;
+}
+.but2-list-cat:hover {
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 115%;
+    margin: 0px;
+    flex-shrink: 0;
+    width: 20%;
+    background-color: #942D2D;
+    color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    cursor: pointer;
+    font-size: 125%;
+}
+.but-list-cat:hover {
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 40px;
+    margin: 0px;
+    flex-shrink: 0;
+    background-color: #942D2D;
+    color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    cursor: pointer;
+    font-size: 125%;
+}
+
+.catName {
+    font-size: medium;
+}
+
+.in-ad {
+    width: 55%;
+    height: 120%;
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1px solid #942D2D;
+    font-family: 'Darker Grotesque';
+    background: #FFF;
+}
+
+@media (max-width: 800px) {
+    .catName {
+        font-size: small;
+    }
+    .w-cat {
+        flex-direction: column;
+    }
+    .but-list-cat {
+        width:40%;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .but-list-cat:hover {
+        width: 40%;
+        font-size: small;
+    }
+    .content-ct{
+        width: 80%; /* Increase the width for smaller screens */
+        height: 70%; /* Increase the height for smaller screens */
+        font-size: 14px; /* Decrease the font size */
+    }
+    .in-ca {
+        width: 50%; /* Decrease the width for smaller screens */
+        height: 80%;
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .row-cat {
+        font-size: 14px; /* Decrease the font size */
+    }
+    .but2-list-cat {
+        width: 30%;
+        font-size: 12px;
+    }
+
+    .but2-list-cat:hover {
+        width:30%;
+        font-size: 12px;
+    }
+}

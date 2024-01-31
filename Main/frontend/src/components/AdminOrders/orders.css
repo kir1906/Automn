@@ -1,0 +1,44 @@
+.container {
+    background-color: #EBF2D5;
+  }
+  
+  .itemflex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .itemflex div {
+    width: 13rem;
+    text-align: center;
+  }
+  
+  .flextable {
+    margin: 2rem auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .orders {
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+  
+  .order {
+    padding: 1rem;
+    margin: 1rem 4rem;
+    color: #EBF2D5;
+    background-color: #942D2D;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .totalBillAmt {
+    text-align: right;
+    margin-right: 4rem;
+  }
+
+  .order:hover {
+    transform: scale(1.05);
+  }

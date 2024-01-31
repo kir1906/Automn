@@ -1,0 +1,222 @@
+.item-list-ad {
+    overflow-y: auto;
+    background-color: #EBF2D5;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.adm-ad {
+    background-color: #EBF2D5;
+    font-family: 'David Libre';
+    color: #942D2D;
+}
+
+
+.addi-ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #EBF2D5;
+}
+
+.mrow-ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-ad {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(42, 42, 42, 0.573);
+}
+
+
+
+.content-ad {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    text-align: center;
+    line-height: 1.4;
+    background: #EBF2D5;
+    width: 60%;
+    height: 60%;
+    padding: 14px 28px;
+    border: 1px solid #942D2D;
+}
+
+.in-ad {
+    width: 55%;
+    height: 120%;
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1px solid #942D2D;
+    font-family: 'Darker Grotesque';
+    background: #FFF;
+}
+
+.bu-fo-ad {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-ad {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'David Libre';
+    font-size: 150%;
+    font-weight: 800;
+}
+.p2{
+    margin: 0px;
+}
+.w-ad {
+    margin: 3% auto; /* Adjust top and bottom margins */
+    width: 87%; /* Adjust the width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust alignment */
+    flex-direction: row;
+}
+
+.ti-ad {
+    font-weight: 600;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.but-list-ad{
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 40px;
+    margin: 0px;
+    flex-shrink: 0;
+    border: 1px solid #942D2D;
+    color: #942D2D;
+    background-color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    font-size: 125%;
+}
+/* Add this to your CSS stylesheet */
+
+.error-message-small {
+    font-size: 12px; /* Adjust the font size as needed */
+    color: red;
+    margin-top: 5px; /* Add margin for spacing */
+  }
+  
+.but2-list-ad {
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 115%;
+    margin: 0px;
+    flex-shrink: 0;
+    border: 1px solid #942D2D;
+    color: #942D2D;
+    background-color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    font-size: 125%;
+}
+
+.but2-list-ad:hover{
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 115%;
+    margin: 0px;
+    flex-shrink: 0;
+    background-color: #942D2D;
+    color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    cursor: pointer;
+    font-size: 125%;
+}
+.but-list-ad:hover {
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 40px;
+    margin: 0px;
+    flex-shrink: 0;
+    background-color: #942D2D;
+    color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    cursor: pointer;
+    font-size: 125%;
+}
+@media screen and (max-width: 800px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .w-ad {
+        flex-direction: column;
+    }
+
+    .content-ad {
+        width: 80%; /* Increase the width for smaller screens */
+        height: 70%; /* Increase the height for smaller screens */
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .in-ad {
+        width: 50%; /* Decrease the width for smaller screens */
+        height: 110%;
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .bu-fo-ad {
+        width: 100%;
+    }
+
+    .row-ad {
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .but-list-ad,
+    .but2-list-ad {
+        font-size: 16px; /* Decrease the font size */
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    /* Adjust styles for screens between 769px and 1000px */
+    .content-ad {
+        width: 70%; /* Adjust width for screens between 769px and 1000px */
+        height: 60%; /* Adjust height for screens between 769px and 1000px */
+        font-size: 18px; /* Adjust font size for screens between 769px and 1000px */
+    }
+
+    .in-ad {
+        width: 70%; /* Adjust width for screens between 769px and 1000px */
+        font-size: 18px; /* Adjust font size for screens between 769px and 1000px */
+    }
+
+    .row-ad {
+        font-size: 18px; /* Adjust font size for screens between 769px and 1000px */
+    }
+
+    .bu-fo-ad {
+        width: 80%; /* Adjust width for screens between 769px and 1000px */
+    }
+
+    .but-list-ad,
+    .but2-list-ad {
+        font-size: 15px; /* Adjust font size for screens between 769px and 1000px */
+    }
+}

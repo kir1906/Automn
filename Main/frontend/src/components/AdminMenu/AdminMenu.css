@@ -1,0 +1,196 @@
+.item-list{
+    overflow-y: auto;
+    background-color: #EBF2D5;
+}
+.adm{
+    background-color: #EBF2D5;
+    font-family: 'David Libre';
+    color: #942D2D;
+}
+.bu-fo-a {    
+    display: flex;
+    flex-direction: row;
+}
+.but2-list-a {
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 115%;
+    width: 25%;
+    margin: 0px;
+    flex-shrink: 0;
+    border: 1px solid #942D2D;
+    color: #942D2D;
+    background-color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    font-size: 125%;
+}
+
+.but2-list-a:hover{
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 115%;
+    margin: 0px;
+    flex-shrink: 0;
+    width: 25%;
+    background-color: #942D2D;
+    color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    cursor: pointer;
+    font-size: 125%;
+}
+.addi-a{
+    margin: 3% auto; /* Adjust top and bottom margins */
+    width: 77%; /* Adjust the width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust alignment */
+    flex-direction: row;
+}
+.mrow-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.overlay-a{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(42, 42, 42, 0.573);
+}
+.content-a{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 8%;
+    text-align: center;
+    line-height: 1.4;
+    background: #EBF2D5;
+    width: 80%;
+    height: 83%;
+    padding: 3rem;
+    border: 1px solid #942D2D;
+}
+.in-a{
+    width: 55%;
+    height: 120%;
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1px solid #942D2D;
+    font-family: 'Darker Grotesque';
+    background: #FFF;
+}
+.row-a{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0px;
+    align-items: center;
+    width: 90%;
+    height: 2.5rem;
+    justify-content: space-between;
+    font-family: 'David Libre';
+    font-size: 150%;
+    font-weight: 800;
+}
+.but-list-a{
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 44px;
+    margin: 0px;
+    width: 140px;
+    flex-shrink: 0;
+    border: 1px solid #942D2D;
+    color: #942D2D;
+    background-color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    font-size: 125%;
+}
+
+.but-list-a:hover {
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px;
+    height: 44px;
+    width: 140px;
+    margin: 0px;
+    flex-shrink: 0;
+    background-color: #942D2D;
+    color: #EBF2D5;
+    font-family: 'Darker Grotesque';
+    cursor: pointer;
+    font-size: 125%;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .addi-a {
+        flex-direction: column;
+    }
+
+    .content-a {
+        width: 80%; /* Increase the width for smaller screens */
+        height: 75%; /* Increase the height for smaller screens */
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .in-a {
+        width: 50%; /* Decrease the width for smaller screens */
+        height: 80%;
+
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .bu-fo-a {
+        width: 100%;
+    }
+
+    .row-a {
+        font-size: 14px; /* Decrease the font size */
+    }
+
+    .but-list-a,
+    .but2-list-a {
+        font-size: 16px; /* Decrease the font size */
+    }
+    .but-list-a{
+        width: 100px;
+        height: 30px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    /* Adjust styles for screens between 769px and 1000px */
+    .content-a {
+        width: 80%; /* Adjust width for screens between 769px and 1000px */
+        height: 75%; /* Adjust height for screens between 769px and 1000px */
+        font-size: 18px; /* Adjust font size for screens between 769px and 1000px */
+    }
+
+    .in-a {
+        width: 70%; /* Adjust width for screens between 769px and 1000px */
+        height: 80%;
+        font-size: 18px; /* Adjust font size for screens between 769px and 1000px */
+    }
+
+    .row-a {
+        font-size: 18px; /* Adjust font size for screens between 769px and 1000px */
+    }
+
+    .bu-fo-a {
+        width: 80%; /* Adjust width for screens between 769px and 1000px */
+    }
+
+    .but-list-a,
+    .but2-list-a {
+        font-size: 15px; /* Adjust font size for screens between 769px and 1000px */
+    }
+}

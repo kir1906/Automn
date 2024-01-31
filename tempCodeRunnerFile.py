@@ -1,1 +1,0 @@
-finalist_in
